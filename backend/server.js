@@ -14,9 +14,9 @@ connectDB()
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
-app.get('/', (req, res) => {
-    res.send("Welcome to support desk")
-})
+// app.get('/', (req, res) => {
+//     res.send("Welcome to support desk")
+// })
 
 
 //////Register User///////////
